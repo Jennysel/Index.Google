@@ -1,0 +1,216 @@
+/*barre de navigation*/
+.nav {
+  display: flex;
+  min-height: 56px;
+  align-items: center;
+  flex-grow: 1;
+  vertical-align: middle;
+}
+
+.block1 {
+	flex:3;
+}
+
+.block2 {
+  text-align: center;
+}
+
+.CTA {
+	margin-right: 15px;
+	margin-left: 5px;
+}
+
+.item {
+  font-size: 13px;
+  padding: 10px;
+  display: inline-block;
+  font-family: Arial;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+
+}
+
+.item:hover {
+	text-decoration: underline; 
+}
+
+.Applications {
+	height: 25px;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+/*Mise en forme du logo*/
+
+img.logo { 
+   display: flex;
+   margin-left: auto;
+   margin-right: auto;
+   height:92px;
+   width:272px;
+   object-fit:contain;
+   object-position:center bottom;
+   padding-top: 130px;
+}
+
+/*Searchbar*/
+/*#searchbar{position:relative; width:1040px; height:auto;}*/
+.formulaire {
+	display:flex;
+
+}
+.formulaire .champ {
+	display: flex;
+    margin-left: auto;
+    margin-right: auto;
+	width:600px; 
+	height:43px;
+	border-radius: 30px;
+	border: 1px solid #f2f2f2;
+	margin-top: 25px;
+	
+	background-image: url(https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105_1280.png);
+	background-repeat: no-repeat;
+    background-position: 17px 14px;
+    background-size: 17px; 
+    padding-left: 30px; 
+  }  
+
+/*.item4 {
+    background-image: url(https://www.freepngimg.com/thumb/microphone/70666-voice-microphone-google-search-logo-png-file-hd.png);
+	background-repeat: no-repeat;
+    background-position: 20px 20px;
+    background-size: 17px; 
+    padding-left: 20px; 
+}*/
+
+.champ:hover {
+	box-shadow: 0px 0px 5px #aaa;
+}
+
+
+/* Pour ne pas avoir les liens surlignés*/
+a {
+	text-decoration: none;
+}
+
+/*CTA*/
+
+/*Connexion*/
+a.bouton1 {
+padding: 10px 25px;
+font-size: 14px;
+background: #1a73e8; 
+color: white;
+font-family: Roboto; 
+border: 1px solid transparent;
+border-radius: 5px;
+text-decoration: none;
+}
+a.bouton1:hover {
+background: #4886ec; 
+}
+
+/*CTA en dessous searchbar*/
+.CTA2 {
+display: flex;
+justify-content: center;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+/*Recherche Google*/
+.bouton2 {
+padding: 10px 17px;
+margin: 10px;
+font-size: 14px;
+background: #f8f9fa; 
+color: #3b4043;
+font-family: Roboto; 
+border: 1px solid transparent;
+border-radius: 5px;
+text-decoration: none;
+}
+.bouton2:hover {
+border: 1px solid #c3c3c4; 
+}
+
+/*J'ai de la chance*/
+a.bouton3 {
+padding: 10px 17px;
+margin: 10px;
+font-size: 14px;
+background: #f8f9fa; 
+color: #3b4043;
+font-family: Roboto; 
+border: 1px solid transparent;
+border-radius: 5px;
+text-decoration: none;
+}
+.bouton3:hover {
+border: 1px solid #c3c3c4; 
+}
+
+/*Footer*/
+.footer {
+	position:absolute;
+    bottom:0;
+    width:100%;
+	background: #f2f2f2;
+	font-family: Roboto;
+	font-size: 14px;
+	color: #6f757a;
+	
+}
+
+.ligne {
+	border-bottom: 1px;
+	width:100%;
+	border-color: #f1eff1;
+
+}
+.France {
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  font-family: Roboto;
+}
+
+
+
+.footer2-block1; .footer2-block2; .footer2-block3; {
+	flex: 1;
+}
+
+.item3 {
+	color: #6f757a;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.item3:hover {
+	text-decoration: underline; 
+}
+
+.footer2-block2 {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC);
+	background-repeat: no-repeat;
+    background-position: 15px 1px;
+    background-size: 12px; 
+    padding-left: 27px; 
+
+}
