@@ -103,7 +103,7 @@ padding: 10px 25px;
 font-size: 14px;
 background: #1a73e8; 
 color: white;
-font-family: Roboto; 
+font-family: Arial; 
 border: 1px solid transparent;
 border-radius: 5px;
 text-decoration: none;
@@ -128,7 +128,7 @@ margin: 10px;
 font-size: 14px;
 background: #f8f9fa; 
 color: #3b4043;
-font-family: Roboto; 
+font-family: Arial; 
 border: 1px solid transparent;
 border-radius: 5px;
 text-decoration: none;
@@ -144,7 +144,7 @@ margin: 10px;
 font-size: 14px;
 background: #f8f9fa; 
 color: #3b4043;
-font-family: Roboto; 
+font-family: Arial; 
 border: 1px solid transparent;
 border-radius: 5px;
 text-decoration: none;
@@ -159,7 +159,7 @@ border: 1px solid #c3c3c4;
     bottom:0;
     width:100%;
 	background: #f2f2f2;
-	font-family: Roboto;
+	font-family: Arial;
 	font-size: 14px;
 	color: #6f757a;
 	
@@ -187,7 +187,7 @@ border: 1px solid #c3c3c4;
   padding-left: 30px;
   padding-bottom: 15px;
   padding-top: 10px;
-  font-family: Roboto;
+  font-family: Arial;
 }
 
 
